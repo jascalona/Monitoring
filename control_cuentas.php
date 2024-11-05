@@ -223,8 +223,8 @@ include "./CONTROLLER/conexion.php";
                         <?php
                         
                         include "./CONTROLLER/conexion.php";
-                        $SQL="SELECT m_Uload.ci, m_Uload.name, m_Uload.surname, m_Uload.customer, m_Uload.status,
-                        m_Uload.date, m_Uload.time, m_Uload.location, m_Uload.cargo, m_Uload.credenciales, m_Uload.departamento FROM m_Uload
+                        $SQL="SELECT m_uload.ci, m_uload.name, m_uload.surname, m_uload.customer, m_uload.status,
+                        m_uload.date, m_uload.time, m_uload.location, m_Uload.cargo, m_uload.credenciales, m_uload.departamento FROM m_uload
                         $where";
                         $dato = mysqli_query($conexion, $SQL);
     
